@@ -6,7 +6,7 @@ import { Search } from "./Component/Search";
 const App = () => {
   return (
     <Router>
-      <div className="flex bg-base-200 min-h-screen">
+      <div className="flex bg-gray-200 min-h-screen">
         <Sidebar />
         <Routes>
           <Route path="/" element={<Home />} />
